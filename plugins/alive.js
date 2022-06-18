@@ -31,7 +31,7 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://github.com/EkeLachin/raganork-md'
     }
 }, {
   urlButton: {
@@ -57,13 +57,13 @@ Module({
 var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
-┃✩│ User : ${message.senderName}
-┃✩│ Mode : ${MODE}
-┃✩│ Server : ${config.HEROKU.APP_NAME}
+┃✩│ Sahip : ${BOT_INFO.split(";")[1]}
+┃✩│ Kullanıcı : ${message.senderName}
+┃✩│ Tür : ${MODE}
+┃✩│ Sunucu : ${config.HEROKU.APP_NAME}
 ┃✩│ Ram: 1024 MB
-┃✩│ Disk Space: 620 GB
-┃✩│ Version: ${config.VERSION}
+┃✩│ Disk alanı: 620 GB
+┃✩│ Sürümü: ${config.VERSION}
 ┃✩│
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
