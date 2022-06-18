@@ -40,7 +40,7 @@
             "DEMOTE_DESC": "Kişiyi yönetici konumundan kaldırır.",
             "ALREADY_NOT_ADMIN": "Üye yönetici değilki yöneticiliğini elinden alalım!",
             "DEMOTED": ", Artık bir yönetici değil!",
-            "MUTE_DESC": "Mutes group chat. Only the admins can send messages.",
+            "MUTE_DESC": "Grup sohbetini sessize alır. Sadece yöneticiler mesaj gönderebilir.",
             "MUTED": "Group muted. Only admins can send messages",
             "UNMUTE_DESC": "Unmutes the group chat allowing all participants to send messages",
             "UNMUTED": "Group opened.",
