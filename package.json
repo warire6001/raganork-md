@@ -1,14 +1,14 @@
 {
   "name": "raganork",
   "version": "1.0.2",
-  "description": "Raganork whatsapp bot- Multi device version.",
+  "description": "Raganork whatsapp bot- Çoklu cihaz sürümü. https://youtu.be/W5MKr4gKI5o",
   "main": "./Raganork/index.js",
   "scripts": {
     "start": "supervisor -s index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/souravkl11/raganork-md.git"
+    "url": "git+https://github.com/EkeLachin/raganork-md.git"
   },
   "keywords": [
     "whatsapp",
