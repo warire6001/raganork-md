@@ -35,7 +35,7 @@ Module({
     }
 }, {
   urlButton: {
-    displayText: 'Contact Owner',
+    displayText: 'Kurucu ile İletişime Geç',
     url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
     }
 }, {
