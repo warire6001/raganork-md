@@ -40,17 +40,17 @@ Module({
     }
 }, {
     quickReplyButton: {
-        displayText: 'Bot status',
+        displayText: 'Bot durumu',
         id: 'ping'+myid
     }
 }, {
     quickReplyButton: {
-        displayText: 'All commands',
+        displayText: 'Tüm komutlar',
         id: 'commands'+myid
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
+        displayText: 'Destek grubu',
         id: 'support'+myid
     }
 }]
