@@ -1,0 +1,92 @@
+{
+	"name": "Deploy",
+	"description": "Wa Bot.",
+	"keywords": [
+		"whatsapp",
+		"bot"
+	],
+	"repository": "https://github.com/EkeLachin/raganork-md",
+	"stack": "container",
+    "env": { 
+        "HANDLERS": {
+            "description": "Prefix of commands. Can be also false https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":".,"
+        },
+        "ANTILINK_WARN": {
+            "description": "Groups for antilink (JIDS) https://youtu.be/W5MKr4gKI5o",
+            "required": false,
+            "value":"jid,jid"
+        },
+        "READ_MESSAGES": {
+            "description": "Bot will read all messages. Can be also false https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":"false"
+        },
+        "READ_COMMAND": {
+            "description": "Bot will read all commands (blue tick). Can be also false https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":"true"
+        },
+       "HEROKU_API_KEY": {
+            "description": "For updating bot and setting vars remotely https://youtu.be/0JzXCTX-9yY",
+            "required": true,
+            "value":""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Exact name which you gave at the top https://youtu.be/0JzXCTX-9yY",
+            "required": true,
+            "value":""
+        },
+        "STICKER_DATA": {
+            "description": "Name of stickers created using bot. Can also split using ;",
+            "required": true,
+            "value":"Laçin Eke YouTube +90 553 883 42 72"
+        },
+        "CHATBOT": {
+            "description": "AI chatbot https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":"off"
+        },
+        "BOT_NAME": {
+            "description": "Name of AI chatbot https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":"Raganork"
+        },
+        "AUDIO_DATA": {
+            "description": "Name of audio (take) name;name;image(url)",
+            "required": true,
+            "value":"LachinEkeYouTube;LachinEkeYouTube;https://i.imgur.com/N52NuNN.jpg"
+        },
+        "MODE": {
+            "description": "private or public https://youtu.be/W5MKr4gKI5o",
+            "required": true,
+            "value":"public"
+        },
+        "SUDO": {
+            "description": "These numbers can control your bot. seperate with commas",
+            "required": false,
+            "value":"905538834272,905445096227,919074309534"
+        },
+        "ALIVE": {
+            "description": "Alive message {image/link}, {sender} can also be used",
+            "required": false,
+            "value":"{pp} Active since {uptime}\n User:{sender}"
+        },
+       "SESSION": {
+            "description": "Your MD session https://raganork-qr.herokuapp.com/",
+            "required": true
+            "value":"Lachin Eke YouTube +90 553 883 42 72"
+             
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      },
+      {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }]
+  }
