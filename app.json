@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"Laçin Eke YouTube +90 553 883 42 72"
+            "value":"Laçin Eke YouTube;+90 553 883 42 72"
         },
         "CHATBOT": {
             "description": "AI chatbot https://youtu.be/W5MKr4gKI5o",
